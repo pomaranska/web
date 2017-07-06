@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Słodko.pl</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div id="ikony">
+
+			<div class="ikony">
+				<a href="#"><img src="img/fb.png"/></a>
+			</div>
+			<div class="ikony">
+				<a href="#"><img src="img/inst.png"/></a>
+			</div>
+			<div class="ikony">
+				<a href="#"><img src="img/tw.png"/></a>
+			</div>
+		</div>
+		<div id="naj"><h1>Najlepsze przepisy na</h1></div>
+	    <div id="text"><a href="index.html"><img src="img/text.png"/></a></div>
+        <div id="logo"><img src="img/logo.png"/></div>
+
+	</header>
+	<nav>
+	    <div id="menu">     
+            <div class="menu">
+  	            <select onchange="location = this.value;">
+  	                <option value="przepisy.html">Ciasta</option>
+  	                <option value="przepisy.html">Drożdzowe</option>
+  	                <option value="przepisy.html">Biszkoptowe</option>
+  	                <option value="przepisy.html">Kruche</option>
+  	                <option value="przepisy.html">Przekładane</option>
+  	                <option value="przepisy.html">Bez pieczenia</option>
+  	            </select>  
+  	        </div>    	            	
+            <div class="menu">
+              	<select onchange="location = this.value;">
+  	                <option value="przepisy.html">Ciasteczka</option>
+  	                <option value="przepisy.html">Babeczki</option>
+  	                <option value="przepisy.html">Przekładane</option>
+  	            </select>
+  	        </div>    
+            <div class="menu">
+				<select onchange="location = this.value;">
+  	                <option value="przepisy.html">Desery</option>
+  	                <option value="przepisy.html">Owocowe</option>
+  	                <option value="przepisy.html">Czekoladowe</option>
+  	            </select>
+  	        </div>    
+            <div class="menu">
+              	<select onchange="location = this.value;">
+  	                <option value="przepisy.html">Koktajle</option>
+  	                <option value="przepisy.html">Zielone</option>
+  	                <option value="przepisy.html">Czerwone</option>
+  	                <option value="przepisy.html">Pomarańczowe</option>
+  	            </select>
+  	        </div>    
+        </div>
+	</nav>
+	<div id="container">
+		<div id="content">
+			<article>
+				<div id="zdjecie">
+					<img src="img/przepis1.jpg"/>
+				</div>
+				<div id="opis">
+					<h3>Ciasteczka świąteczne</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra. Nullam tortor nulla, finibus in dolor eu, scelerisque accumsan nulla. Phasellus eu augue eu velit commodo sodales. Praesent ut nulla diam.
+					<a href="przepis.html">Czytaj dalej...</a>
+				</div>
+			</article>
+			<article>
+				<div id="zdjecie">
+					<img src="img/najnow1.jpg"/>
+				</div>
+				<div id="opis">
+					<h3>Koktajl arbuzowy</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra. Nullam tortor nulla, finibus in dolor eu, scelerisque accumsan nulla. Phasellus eu augue eu velit commodo sodales. Praesent ut nulla diam.
+					<a href="przepis.html">Czytaj dalej...</a>
+				</div>
+			</article>
+			<article>
+				<div id="zdjecie">
+					<img src="img/przepis3.jpg"/>
+				</div>
+				<div id="opis">
+					<h3>Deser owocowo-jogurtowy</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra. Nullam tortor nulla, finibus in dolor eu, scelerisque accumsan nulla. Phasellus eu augue eu velit commodo sodales. Praesent ut nulla diam.
+					<a href="przepis.html">Czytaj dalej...</a> 
+				</div>
+			</article>
+			<article>
+				<div id="zdjecie">
+					<img src="img/polecane3.jpg"/>
+				</div>
+				<div id="opis">
+					<h3>Kruszonka</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra. Nullam tortor nulla, finibus in dolor eu, scelerisque accumsan nulla. Phasellus eu augue eu velit commodo sodales. Praesent ut nulla diam.
+					<a href="przepis.html">Czytaj dalej...</a> 
+				</div>
+			</article>		
+
+	<div id="footer">
+		<div class="form">
+			<h3>Prześlij przepis</h3>
+			<p>Wyślij do nas swój przpis a my opublikujemy go na stronie.</p>
+			<img src="img/ciastka.png"/>
+		</div>
+		<div class="form">
+		<form action="mailto:ap" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="e-mail"><br>
+            <textarea name="massage" placeholder="treść" cols="30" rows="3"></textarea>
+            <div id="wyslij"><input type="submit" value="Wyślij"></div>
+		</form>
+		</div>
+	</div>
+	<footer>
+	Copyright © 2017 Autor Aleksandra Pomarańska
+		<a href="raport.html">RAPORT</a>
+	</footer>
+
+		</div>
+		<div id="menubar">
+			<h2>Polecane przepisy</h2>
+			<div class="polecane"><img src="img/polecane1.jpg"/>
+				<h3><a href="przepis.html">Ciasto zebra</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra.<p>
+			</div>
+			<div class="polecane"><img src="img/polecane2.jpg"/>
+				<h3><a href="przepis.html">Ptysie</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra.<p>
+			</div>
+			<div class="polecane"><img src="img/polecane3.jpg"/>
+				<h3><a href="przepis.html">Kruszonka</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra.<p>
+			</div>
+			<div id="sprawdz">
+			<p><a href="index.html">Sprawdź przepisy, które możesz wykonać</a></p>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>	

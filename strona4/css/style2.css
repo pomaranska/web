@@ -1,0 +1,39 @@
+body{
+	
+}
+
+#content{
+	width: 60%;
+	margin: auto;
+	/*background: #dcdbdb;*/
+	padding: 20px;
+	font-family: "century Gothic";
+}
+
+h1{
+	color: #d26161;
+
+}
+
+#box{
+	width: 100%;
+	padding: 20px;
+	clear: both;
+}
+
+#box img{
+	width: 95%;
+}
+
+.box{
+	float: left;
+	width: 30%
+}
+
+.box img{
+	width: 100%;
+}
+
+footer{
+	text-align: center;
+}

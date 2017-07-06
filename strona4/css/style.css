@@ -1,0 +1,441 @@
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+
+ 
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	background: rgb(255, 237, 141);
+	font-size: 15px;
+	font-family: 'Arima Madurai', cursive;
+	width: 70%;
+	margin: auto;
+}
+
+header{
+	height: 200px;
+}
+
+#ikony{
+	width: 18%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.ikony{
+	padding-right: 5px;
+	padding-top: 10px;
+	float: left;
+}
+
+.ikony img{
+	width: 50px;
+}
+
+#naj{
+	float: left;
+	width: 25%;
+}
+
+#naj h1{
+	font-size: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #ba4b53;
+    padding-top: 80px;
+    padding-left: 30%;
+    padding-right: 15%;
+    font-weight: 100;
+}
+
+#text{
+	float: left;
+	width: 30%;
+}
+
+#text img{
+    height: 100px;
+    padding-top: 60px;
+
+}
+
+#logo{
+	float: left;
+	width: 17%;
+	margin-top: 20px;
+	border-radius: 153px 153px 153px 153px;
+	-moz-border-radius: 153px 153px 153px 153px;
+	-webkit-border-radius: 153px 153px 153px 153px;
+	border: 0px solid #000000;
+	background: white;
+}
+
+#logo img{
+	height: 120px;
+	padding: 20px;
+	padding-left: 30px;
+}
+
+
+nav{
+	height: 45px;
+	width: 70%;
+}
+
+#menu{
+	padding-left: 20px;
+}
+
+.menu{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+select{
+	background: transparent;
+	height: 40px;
+	border: solid 0px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: 'Arima Madurai', cursive;
+}
+
+select option{
+	background: transparent;
+	padding: 10px;
+}
+
+select:focus, select:active{
+    outline: none;
+}
+
+#container{
+	background: transparent;
+	height: 100%;
+
+}
+
+#content{
+	float: left;
+	width: 70%;
+	padding: 20px;
+}
+
+article{
+	background: white;
+	margin-bottom: 20px;
+}
+
+article img{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.43);
+	-moz-box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.43);
+	box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.43);
+}
+
+article h3 {
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+section{
+	padding: 20px;
+}
+
+#menubar{
+	float: left;
+	width: 19%;
+	background: white;
+	padding: 20px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+#menubar img{
+	width: 100%;
+	padding-top: 10px;
+	-webkit-box-shadow: 13px 16px 19px -11px rgba(0,0,0,0.43);
+	-moz-box-shadow: 13px 16px 19px -11px rgba(0,0,0,0.43);
+	box-shadow: 13px 16px 19px -11px rgba(0,0,0,0.43);
+}
+
+#menubar a{
+	text-decoration: none;
+	color: black;
+}
+
+#menubar a:hover{
+	color: #980f19;
+}
+
+.polecane{
+	margin-bottom: 20px;
+}
+
+.skladniki{
+	float: left;
+	width: 50%;
+}
+
+.skladniki img{
+	width: 100%;
+}
+
+form input{
+	margin-left: 20px;
+	background: transparent;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+
+form p{
+	padding-top: 10px;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+#footer{
+	padding: 30px;
+    background: rgba(255, 255, 255, 0.29);
+    margin-top: 20px;
+    height: 196px;
+}
+
+#footer img{
+	width: 200px;
+}
+
+.form{
+	float: left;
+	width: 46%;
+	padding-right: 20px;
+}
+
+.form form input {
+    font-size: 15px;
+    font-family: 'Arima Madurai';
+    border: 1px solid;
+    margin: 0;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+.form form input[type=email]{
+	color: black;
+}
+
+.form form textarea {
+    background: transparent;
+    border: 1px solid;
+    font-size: 15px;
+    font-family: 'Arima Madurai';
+    padding: 10px;
+    width: 90%;
+}
+
+.form form #wyslij input {
+    font-size: 15px;
+    width: 40%;
+    height: 40px;
+}
+
+.gallery { 
+	position: relative; 
+	height: 306px; 
+	margin: auto; 
+	overflow: hidden; 
+	list-style: none;
+}
+.gallery img { 
+	display: block; 
+	float: left; 
+}
+.gallery ul {
+	list-style: none;
+}
+.gallery ul li.each { 
+	position: relative; 
+	float: left;
+	transition: all .8s; 
+}
+.gallery ul li.each, .gallery ul li.each img { 
+	height: 0px; 
+}
+.gallery ul li.each img { 
+	opacity: 0.5; 
+	transition: all .4s; 
+}
+.gallery ul li.each.active, .gallery ul li.each.active img { 
+	height: 306px; 
+}
+.gallery ul li.each.active img { 
+	opacity: 1;
+	width: 100%;
+    height: auto;
+}
+.gallery .caption { 
+	position: absolute;
+	bottom: 20px; 
+	left: 20px; right: 20px;
+}
+
+.gallery .caption h2, .gallery .caption p {
+	background: rgba(255, 237, 141, 0.74);
+	padding: 7px;
+}
+
+.gallery .caption h2, .gallery .caption p a{
+	color: black;
+	text-decoration: none;
+}
+
+.gallery .caption h2 {
+	font: 24px "Arima Madurai", sans-serif;
+	float: left;
+}
+.gallery .caption p {
+	font: 20px "Arima Madurai", sans-serif;
+	float: left;
+ 	clear: both;
+}
+
+
+.direction { 
+	position: absolute; 
+	top: 50%; margin-top: -74px; 
+	right: -100px;
+	background: rgba(255, 255, 255, 0.81);
+	width: 158px; height: 158px;
+	display: block;
+	transform: rotate(45deg); 
+	z-index: 9999;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+.direction .next {
+	position: absolute;
+	top: 90px; left: 25px;
+	color: #700a12;
+	font: 40px "Century Gothic", sans-serif;
+	transform: rotate(-45deg);
+	cursor: pointer;
+}
+
+.wyslij{
+	float:left;
+	height: 100px;
+}
+
+form a{
+	margin-left: 20px;
+	background: #ededed;
+    border: 1px solid #d8d8d8;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+	color: black;
+}
+
+
+/*przepisy*/
+
+#zdjecie{
+	float: left;
+	width: 45%;
+	padding-right: 20px;
+}
+
+#zdjecie img{
+	width: 100%;
+	height: 190px;
+}
+
+#opis{
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#opis a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+#sprawdz{
+    padding: 8%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 80%;
+    height: 140px;
+    background: rgb(255, 242, 174);
+    border-radius: 153px 153px 153px 153px;
+}
+
+#sprawdz p{
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 700;
+}
+
+#sprawdz a{
+	text-decoration: none;
+	color: black;
+}
+
+#przepis{
+	float: left;
+	width: 30%;
+}
+
+#przepis ul{
+	list-style: circle;
+	padding-left: 30px;
+}
+
+#przepis h3{
+	padding-top: 0;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+}

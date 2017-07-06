@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Słodko.pl</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div id="ikony">
+
+			<div class="ikony">
+				<a href="#"><img src="img/fb.png"/></a>
+			</div>
+			<div class="ikony">
+				<a href="#"><img src="img/inst.png"/></a>
+			</div>
+			<div class="ikony">
+				<a href="#"><img src="img/tw.png"/></a>
+			</div>
+		</div>
+		<div id="naj"><h1>Najlepsze przepisy na</h1></div>
+	    <div id="text"><a href="index.html"><img src="img/text.png"/></a></div>
+        <div id="logo"><img src="img/logo.png"/></div>
+
+	</header>
+	<nav>
+	    <div id="menu">     
+            <div class="menu">
+  	            <select onchange="location = this.value;">
+  	                <option value="przepisy.html">Ciasta</option>
+  	                <option value="przepisy.html">Drożdzowe</option>
+  	                <option value="przepisy.html">Biszkoptowe</option>
+  	                <option value="przepisy.html">Kruche</option>
+  	                <option value="przepisy.html">Przekładane</option>
+  	                <option value="przepisy.html">Bez pieczenia</option>
+  	            </select>  
+  	        </div>    	            	
+            <div class="menu">
+              	<select onchange="location = this.value;">
+  	                <option value="przepisy.html">Ciasteczka</option>
+  	                <option value="przepisy.html">Babeczki</option>
+  	                <option value="przepisy.html">Przekładane</option>
+  	            </select>
+  	        </div>    
+            <div class="menu">
+				<select onchange="location = this.value;">
+  	                <option value="przepisy.html">Desery</option>
+  	                <option value="przepisy.html">Owocowe</option>
+  	                <option value="przepisy.html">Czekoladowe</option>
+  	            </select>
+  	        </div>    
+            <div class="menu">
+              	<select onchange="location = this.value;">
+  	                <option value="przepisy.html">Koktajle</option>
+  	                <option value="przepisy.html">Zielone</option>
+  	                <option value="przepisy.html">Czerwone</option>
+  	                <option value="przepisy.html">Pomarańczowe</option>
+  	            </select>
+  	        </div>    
+        </div>
+	</nav>
+	<div id="container">
+		<div id="content">
+			<article>
+				<div class="gallery">
+					<ul>
+					  <li class="each">
+					  	<img src="img/najnow5.jpg" alt="babeczki" />
+					  	<span class="caption">
+					    	<p><a href="przepisy.html">Najnowsze przepisy</a></p>
+					  	</span>
+					  </li>
+					  <li class="each">
+					  	<img src="img/najnow2.jpg" alt="" />
+					  </li>
+					  <li class="each">
+					  	<img src="img/najnow3.jpg" alt="Lorem 3" />
+					  </li>
+					  <li class="each">
+					  	<img src="img/najnow4.jpg" alt="Lorem 4" />
+					  </li>
+					  <li class="each">
+					  	<img src="img/najnow1.jpg" alt="Lorem 5" />
+					  </li>
+					</ul>
+					<div class="direction">
+						<span class="next">+</span>
+					</div>
+			</div>		
+				<section>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra. Nullam tortor nulla, finibus in dolor eu, scelerisque accumsan nulla. Phasellus eu augue eu velit commodo sodales. Praesent ut nulla diam. Mauris gravida, mi imperdiet feugiat ullamcorper, ante orci varius tortor, ac rhoncus orci diam sed risus.
+				</section>
+			</article>
+			<article>
+			<h3>Znajdź przepis dla siebie!</h3>
+				<section>
+					Zaznacz składniki, które posiadasz i wyszukaj przepis im odpowiadający.<br/><br/>
+					<ul class="tabs">
+						<li class="tab-link current" data-tab="tab-1">Podstawowe składniki</li>
+						<li class="tab-link" data-tab="tab-2">Owoce</li>
+						<li class="tab-link" data-tab="tab-3">Nadzienie</li>
+						<li class="tab-link" data-tab="tab-4">Inne</li>
+					</ul>
+						<form action="mailto:ap" method="post" enctype="text/plain"><div>
+							<div id="tab-1" class="tab-content current">								
+								<div class="skladniki">
+									<img src="img/skladniki1.jpg"/>
+								</div>
+									<input type="checkbox" name="Podstawowe" value="pszenna" /> Mąka pszenna<br />
+									<input type="checkbox" name="Podstawowe" value="ziemniaczana" /> Mąka ziemniaczana<br />
+									<input type="checkbox" name="Podstawowe" value="proszek" /> Proszek do pieczenia<br />
+									<input type="checkbox" name="Podstawowe" value="mleko" /> Mleko<br />
+									<input type="checkbox" name="Podstawowe" value="jajko" /> Jajka<br />
+									<input type="checkbox" name="Podstawowe" value="cukier" /> Cukier<br />
+									<input type="checkbox" name="Podstawowe" value="maslo" /> Masło<br />
+							</div>			
+							<div id="tab-2" class="tab-content">
+								<div class="skladniki">
+									<img src="img/skladniki2.jpg"/>
+								</div>
+									<input type="checkbox" name="Podstawowe" value="jablka" /> Jabłka<br />
+									<input type="checkbox" name="Podstawowe" value="Banany" /> Banany<br />
+									<input type="checkbox" name="Podstawowe" value="Kiwi" /> Kiwi<br />
+									<input type="checkbox" name="Podstawowe" value="Pomarańcze" /> Pomarańcze<br />
+									<input type="checkbox" name="Podstawowe" value="Truskawki" /> Truskawki<br />
+									<input type="checkbox" name="Podstawowe" value="Maliny" /> Maliny<br />
+									<input type="checkbox" name="Podstawowe" value="Wiśnie" /> Wiśnie<br />
+									<input type="checkbox" name="Podstawowe" value="Gruszki" /> Gruszki<br />
+							</div>
+							<div id="tab-3" class="tab-content">
+								<div class="skladniki">
+									<img src="img/skladniki3.jpg"/>
+								</div>
+									<input type="checkbox" name="Podstawowe" value="Kajmak" /> Kajmak<br />
+									<input type="checkbox" name="Podstawowe" value="Czekolada" /> Czekolada biała<br />
+									<input type="checkbox" name="Podstawowe" value="Czekolada" /> Czekolada mleczna<br />
+									<input type="checkbox" name="Podstawowe" value="Czekolada" /> Czekolada gorzka<br />
+									<input type="checkbox" name="Podstawowe" value="Śmietanka" /> Śmietanka<br />
+									<input type="checkbox" name="Podstawowe" value="Nutella" /> Nutella<br />
+									<input type="checkbox" name="Podstawowe" value="ser" /> Ser mascarpone<br />
+							</div>
+							<div id="tab-4" class="tab-content">
+								<div class="skladniki">
+									<img src="img/skladniki4.jpg"/>
+								</div>
+									<input type="checkbox" name="Podstawowe" value="Kokos" /> Kokos<br />
+									<input type="checkbox" name="Podstawowe" value="orzechy" /> Orzechy<br />
+									<input type="checkbox" name="Podstawowe" value="Herbatniki" /> Herbatniki<br />
+									<input type="checkbox" name="Podstawowe" value="Wafle" /> Wafle<br />
+									<input type="checkbox" name="Podstawowe" value="Wafle" /> Wafle<br />
+									<input type="checkbox" name="Podstawowe" value="Wafle" /> Wafle<br />
+									<input type="checkbox" name="Podstawowe" value="Wafle" /> Wafle<br />
+							</div>
+								<a href="przepisy.html">Dostępne przepisy</a>	
+						</div></form>
+				</section>
+
+		</article>
+	
+	<div id="footer">
+		<div class="form">
+			<h3>Prześlij przepis</h3>
+			<p>Wyślij do nas swój przpis a my opublikujemy go na stronie.</p>
+			<img src="img/ciastka.png"/>
+		</div>
+		<div class="form">
+		<form action="mailto:ap" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="e-mail"><br>
+            <textarea name="massage" placeholder="treść" cols="30" rows="3"></textarea>
+            <div id="wyslij"><input type="submit" value="Wyślij"></div>
+		</form>
+		</div>
+
+	</div>
+	<footer>
+	Copyright © 2017 Autor Aleksandra Pomarańska
+	<a href="raport.html">RAPORT</a>
+	</footer>
+
+		</div>
+		<div id="menubar">
+			<h2>Polecane przepisy</h2>
+			<div class="polecane"><img src="img/polecane1.jpg"/>
+				<h3><a href="przepis.html">Ciasto zebra</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra.<p>
+			</div>
+			<div class="polecane"><img src="img/polecane2.jpg"/>
+				<h3><a href="przepis.html">Ptysie</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra.<p>
+			</div>
+			<div class="polecane"><img src="img/polecane3.jpg"/>
+				<h3><a href="przepis.html">Kruszonka</a></h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis tempor viverra.<p>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>	
