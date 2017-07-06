@@ -1,0 +1,965 @@
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+
+ 
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	text-align: center;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+p{
+	font-size: 14px;
+	text-transform: none;
+	color: #ffffff;
+	padding-top: 30px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+table{
+	width: 90%;
+	margin-left: 5%;
+}
+   
+
+table td{
+	border-bottom: 1px solid;
+	border-bottom-style: dotted;
+	width: 11%;
+}
+
+#rozmiar{
+	width: 72%;
+	padding-bottom: 30px;
+	margin: 0% 14% 3% 14%;
+}
+
+
+#nav{
+	background-color: #84a0c6;;
+	
+}
+
+
+#menulg{
+	height: 70px;
+	margin: auto;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	clear: both;
+}
+
+#for_smaller_screens{
+	display: none;
+}
+
+#logo{
+	width: 15%;
+	float: left;
+}
+
+#logo img{
+	padding-top: 8px;
+	height: 60px;
+}
+
+#menu2{
+	float: left;
+	width: 50%;
+}
+
+.menu {
+	margin: auto;
+	float: left;
+	width: 30%;
+	list-style: none;
+}
+
+
+.menu select{
+	background: transparent;
+	height: 40px;
+	border: solid 0px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	margin-top: 18px;
+
+}
+
+.menu a{
+	float: left;
+	text-align: center;
+	padding: 25px;
+	width: 100%;
+	text-decoration: none;
+	letter-spacing: 0.3ex;
+}
+
+.menu a:visited{
+	color: #2e3644;
+}
+
+.menu a:hover{
+	color: #ffffff;
+}
+
+.menu img{
+	display: block;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 5px;
+	width: 40px;
+	height: 40px;
+}
+
+#logOUT{
+	float:left;
+	width: 35%;
+	padding-top: 25px;
+}
+
+#logIN {
+	padding-top: 25px;
+}
+
+#logIN a{
+	text-decoration: none;
+	color: black;
+	padding:5px 15px; 
+    background: white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#logowanie input{
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+#logowanie input[type=submit] {
+    padding:5px 15px; 
+    background: #DBD7D7; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#logowanie input:focus{
+	background:#DBD7D7;
+}
+
+header{
+   	position: relative;
+    width: 100%;
+    height: 500px;
+	background-image: url(../img/header.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin:0;
+}
+
+header img {
+    width: 100%;
+}
+
+
+#sklep{
+	background-color: #ddd1de;
+	margin: auto;
+	min-height: 550px;
+	letter-spacing: 0.3ex;
+	font-size: 30px;
+}
+
+#sklep p{
+	font-size: 25px;
+	color: #6689b8;
+	letter-spacing: 0.3ex;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	background: #d8cdd9;
+	margin-bottom: 30px;
+}
+
+.bestitem{
+	float: left;
+	width: 25%;
+}
+
+.bestitem img{
+	max-height: 280px;
+    border: 1px solid #6689b8;
+}
+
+.bestitem h1{
+	text-decoration: none;
+	font-size: 20px;
+	color: #3c393d;
+}
+
+.bestitem h2{
+	font-size: 25px;
+
+}
+
+
+#onas{
+	background-color: #84a0c6;;
+	font-size: 30px;
+	color: #ffffff;
+	padding: 65px;
+	letter-spacing: 0.3ex;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#footer{
+	background-color: #000000;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 40px;
+	color: #ffffff;
+}
+
+footer{
+	background-color: #000000;
+	padding-left: 20%;
+	padding-right: 20%;
+	color: #ffffff;
+}
+
+#kontakt{
+	clear: both;
+	text-align: left;
+	padding-bottom: 40px;
+}
+
+
+.kontakt{
+	float: left;
+	width: 50%;
+}
+
+#dolacz{
+	padding: 10px;
+	clear: both;
+}
+
+.dolaczimg a img{
+	float: left;
+	height: 40px;
+	width: 40px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+#adres{
+	clear: both;
+	padding: 35px;
+	padding-left: 0;	
+}
+
+#adres img{
+	width: 20px;
+	height: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.adres{
+	padding-bottom: 15px;
+}
+
+#email{
+	padding: 10px;
+}
+
+#email form{
+	padding-top: 15px;
+}
+
+#email form input{
+	padding: 5px;
+	width: 90%;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#email form textarea{
+	padding: 5px;
+	width: 90%;
+	font-family: "Century Gothic";
+	font-size: 15px;
+}
+
+#email form #wyslij input{
+	text-transform: uppercase;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	margin-top: 10px;
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid;
+	width: 30%;
+	height: 30px;
+}	
+
+#copyright{
+	padding: 25px;
+}
+
+#numer{
+	display: none;
+}
+
+button.accordion{
+	display: none;
+}
+
+#form{
+	display: none;
+}
+
+#produkty{
+	background: #ffffff;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#produkty table{
+	width: 90%;
+	margin-left: 5%;
+	border: 0;
+}
+   
+#produkty table th{
+	padding: 10px;
+	text-transform: uppercase;
+	background: #8d9bad;
+}
+
+#produkty table td{
+	padding: 10px;
+	border-bottom: 1px solid;
+	border-bottom-style: dotted;
+	width: 11%;
+}
+
+#dodaj{
+	margin: 30px;
+	border: 1px solid;
+	border-style: dotted;
+	padding: 30px;
+}
+
+#dodaj label{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#dodaj form input{
+	margin: 6px;
+	width: 30%;
+	padding: 8px;
+	font-size: 20px;
+}
+
+#dodaj form input{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#dodaj form [input=type]{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#dodaj select{
+	margin: 6px;
+	width: 30%;
+	padding: 8px;
+	font-size: 20px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#dolacz2{
+	margin: 30px;
+	border: 1px solid;
+	border-style: dotted;
+	padding: 30px;
+}
+
+#dolacz2 label{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#dolacz2 form input{
+	margin: 6px;
+	width: 30%;
+	padding: 8px;
+	font-size: 20px;
+}
+
+#dolacz2 form input{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#dolacz2 form [input=type]{
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#dolacz2 h1{
+	font-size: 20px;
+}
+
+/*produkty*/
+
+
+#rzeczy{
+	width: 70%;
+	margin: auto;
+	clear: both;
+	padding: 20px;
+}
+
+#zdjecie{
+	float: left;
+	padding-right: 5px;
+}
+
+#zdjecie img{
+	width: 100%;
+}
+
+#opis a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+
+.rzecz{
+	float: left;
+	width: 25%;
+	padding-bottom: 20px;
+}
+
+.rzecz img{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+
+}
+
+.rzecz h3 {
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+#rzecz{
+	width: 50%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#rzecz img{
+	width: 70%;
+
+}
+
+#rzecz p{
+	color: black;
+	font-size: 20px;
+
+}
+
+
+
+@media (max-width: 1279px) and (min-width: 992px) {
+
+
+    #content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+	table{
+		font-size: 20px;
+	}
+
+	#rozmiar{
+		width: 98%;
+		margin: 0% 1% 3% 1%;
+	}
+
+    #menu {
+        height: 80px;
+    }
+
+    #logo img{
+    	padding-top: 10px;
+    }
+
+    .menu p {
+        font-size: 16px;
+    }
+
+    .menu img {
+        height: 50px;
+        width: 50px;
+        padding-top: 20px;
+    }
+
+    .menu a {
+    	width: 25%;
+        font-size: 25px;
+        letter-spacing: 0.1ex;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    #sklep {
+        font-size: 35px;
+    }
+
+    #kategorie {
+        line-height: 96px;
+        width: 96%;
+        padding-top: 20px;
+    }
+
+    #kategorie a {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .bestitem {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bestitem img {
+        height: 430px;
+    }
+
+    .bestitem h1 {
+        font-size: 25px;
+        letter-spacing: 0.1ex;
+    }
+
+    .bestitem h2 {
+        font-size: 40px;
+    }
+
+    #onas {
+        font-size: 35px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .kontakt {
+        font-size: 20px;
+    }
+
+    .dolaczimg a img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #adres img {
+        width: 25px;
+        height: 25px;
+        padding-right: 15px;
+    }
+
+    #footer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #email form input {
+        font-size: 20px;
+    }
+
+    #email form textarea {
+        font-size: 20x;
+        
+    }
+
+    #email form #wyslij input {
+        font-size: 20px;
+        width: 50%;
+        height: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+nav{
+
+	height: 210px;
+}
+
+#nav{
+	padding-bottom: 30px;
+}
+
+.fixed{
+	display: none;
+}
+
+#rozmiar{
+	display: none;
+}
+
+#menulg{
+	display: none;
+}
+
+#menu{
+	width: 90%;
+	height: 100px;
+	    background-color: #84a0c6;
+}
+
+#menu p{
+	padding-top: 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #3c393d;
+	letter-spacing: 0.1em;
+}
+
+#menu img{
+	padding-right: 0px;
+}
+
+.logo{
+	width: 60%;
+	height: 100px;
+	padding-left: 20%;
+
+}
+
+.logo p{
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.logo img{
+	padding-right: 13px;
+	display: block;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 5px;
+	width: 60%; 
+}
+
+#for_larger_screens{
+	display: none;
+}
+
+
+#for_smaller_screens{
+	display: inline-block;
+	width: 90%;
+}
+
+#for_smaller_screens select{
+	width: 90%;
+	padding:5px 15px; 
+    background: #DBD7D7; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+#for_smaller_screens select option{
+    background: #ddd;
+    padding:5px 0;
+    font-size: 30px;
+    background: #d6d7d8;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.menu{
+	width: 50%;
+}
+
+#for_smaller_screens select:focus, select:active{
+        outline: none;
+        -moz-outline: none;
+}
+
+#for_smaller_screens select option{
+        background: #ddd;
+        padding:5px 0;
+        border: 
+}
+select{
+	width: 100%;
+	padding: 20px;
+}
+
+
+    header{
+    	display: none;
+    }
+
+    #sklep{
+    	width: 90%;
+    	padding-top: 0;
+    
+    } 
+
+    .bestitem {
+        float: none;
+        width: 100%;
+        padding-top: 25px;
+        margin-bottom: 20px;
+        background: #c2c4c5;
+    }
+
+    .bestitem img {
+        min-height: 550px;
+        min-width: 400px;
+    }
+
+    .bestitem h1 {
+        text-decoration: none;
+        font-size: 30px;
+        color: #3c393d;
+        background-color: #d6d7d8;
+        padding-top: 0;
+    }
+
+    .bestitem h2 {
+        font-size: 35px;
+        background-color: #d6d7d8;
+    }
+
+    #kategorie {
+        line-height: 80px;
+        width: 96%;
+        padding-top: 20px;
+    }
+
+    #kategorie a {
+        padding: 22px;
+        font-size: 30px;
+    }
+
+
+    #footer{
+    	padding-top: 0;
+    	padding-left: 0;
+    	padding-right: 0;
+    	background: #ffffff;
+    }
+
+    #kontakt {
+        display: none;
+    }
+
+    #onas{
+    	font-size: 25px;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }
+
+    #onas p{
+    	font-size: 18px;
+    }
+
+    #numer{
+    	width: 100%;
+    	background: #292929;
+    	color: #ffffff;
+    	display: inline-block;
+    	height: 70px;
+    }
+
+    #numer p{
+       	font-size: 20px;
+       	text-transform: uppercase;
+       	padding-top: 3%;
+
+    }
+
+    #copyright{
+    	height: auto;
+    	padding: 0;
+		padding-bottom: 20px;
+		font-size: 20px;
+		text-align: center;
+		background: #000000;
+    }
+
+	#copyright p{
+		font-size: 16px;
+	}
+
+	#form{	
+	display: inline-block;
+	background: white;
+	max-height: 0px;
+	overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	}
+
+	#form.show{
+	opacity: 1;
+	max-height: 550px;
+	width: 100%;
+	}
+
+
+
+	#form form{
+		padding-top: 15px;
+		background: #ffffff;
+	}
+
+	#form form input{
+		padding: 5px;
+		width: 90%;
+		font-family: "Century Gothic";
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	#form form textarea{
+		padding: 5px;
+		width: 90%;
+		font-family: "Century Gothic";
+		font-size: 15px;
+	}
+
+	#form form #wyslij input{
+		text-transform: uppercase;
+		font-family: "Century Gothic";
+		font-size: 14px;
+		margin-top: 10px;
+		background-color: transparent;
+		color: #878787;
+		border: 1px solid;
+		width: 30%;
+		height: 30px;
+	}	
+	button.accordion {
+		display: inline-block;
+	    background-color: #fff;
+	    color: #585858;
+	    cursor: pointer;
+	    padding: 18px;
+	    padding-bottom: 0;
+	    width: 100%;
+	    height: 100px;
+	    border: none;
+	    text-align: center;
+	    margin: auto;
+	    outline: none;
+	    font-family: "Century Gothic";
+	    font-size: 25px;
+	    text-transform: uppercase;
+	    transition: 0.4s;
+	}
+
+	button.accordion.active, button.accordion:hover {
+	    color: black;
+	}
+
+#logOUT{
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+
+#logowanie input{
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 5px;
+    font-size: 25px;
+}
+
+#logowanie input[type=submit] {
+    padding:5px 15px; 
+    background: #DBD7D7; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#logowanie input:focus{
+	background:#DBD7D7;
+}
+
+#produkty {
+	padding: 0;
+	margin: 0;
+}
+
+#produkty table th{
+	padding: 0;
+}
+
+.rzecz{
+	width: 100%;
+}
+
+#rzecz{
+	width: 90%;
+}
+
+#rzecz img{
+	width: 100%;
+}
+
+#rzecz p{
+	font-size: 30px;
+}
+
+#opis{
+	font-size: 30px;
+}
+
+}
+
