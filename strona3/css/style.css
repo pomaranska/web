@@ -1,0 +1,768 @@
+
+
+* {
+	padding:0;
+	margin:0;
+}
+
+
+ 
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	text-align: center;
+	font-family: "Century Gothic", sans-serif;
+}
+
+p{
+	font-size: 14px;
+	text-transform: none;
+	color: #ffffff;
+	padding-top: 30px;
+}
+
+table{
+	width: 90%;
+	margin-left: 5%;
+}
+   
+
+table td{
+	border-bottom: 1px solid;
+	border-bottom-style: dotted;
+	width: 11%;
+}
+
+#rozmiar{
+	width: 72%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0% 14% 3% 14%;
+}
+
+#container{
+
+}
+
+nav{
+	background-color: #c2c4c5;
+	opacity: 0.8;
+}
+
+/*scroll fixed*/
+
+.fixed {
+	background: #c2c4c5;
+	border-bottom-color: white;
+	transition: transition-duration 0.2s, transition-timing-function ease-in;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	color: black;
+	opacity: 0.9;
+}
+
+nav #menu .fixed{
+		height: 70px;
+}
+
+
+#menu{
+	height: 70px;
+	margin: auto;
+	text-transform: uppercase;
+	font-family: "Century Gothic";
+	clear: both;
+}
+
+
+#for_larger_screens .menu{
+    width: 19%;
+}
+
+#for_smaller_screens{
+	display: none;
+}
+
+.menu {
+	margin: auto;
+	float: left;
+	width: 20%;
+	list-style: none;
+	text-transform: uppercase;
+	color: #df0024;
+}
+
+.menu p{
+	padding-top: 25px;
+	padding-left: 0;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #000000;
+}
+
+.menu a{
+	float: left;
+	text-align: center;
+	padding: 25px;
+	width: 100%;
+	text-decoration: none;
+	color: #df0024;
+	font-size: 18px;
+	letter-spacing: 0.3ex;
+}
+
+.menu a:visited{
+	color: #df0024;
+}
+
+.menu a:hover{
+	color: #ffffff;
+}
+
+.menu img{
+	display: block;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 5px;
+	width: 40px;
+	height: 40px;
+}
+
+header{
+   	position: relative;
+    width: 100%;
+    height: 700px;
+	background-image: url(../img/back.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin:0;
+}
+
+
+
+
+header img {
+    width: 100%;
+}
+
+
+
+#content{
+
+}
+
+#sklep{
+	background-color: #ffffff;
+	margin: auto;
+	width: 72%;
+	min-height: 550px;
+	color: #df0024;
+	text-transform: uppercase;
+	padding-top: 65px;
+	letter-spacing: 0.3ex;
+	font-size: 30px;
+}
+
+#sklep p{
+	font-size: 30px;
+	color: #df0024;
+	text-transform: uppercase;
+	letter-spacing: 0.3ex;
+	padding-bottom: 30px;
+}
+
+
+.bestitem{
+	float: left;
+	width: 33.3333%;
+}
+
+.bestitem img{
+	max-height: 350px;
+	max-width: 250px;
+}
+
+.bestitem h1{
+	text-decoration: none;
+	font-size: 20px;
+	color: #3c393d;
+}
+
+.bestitem h2{
+	font-size: 25px;
+
+}
+#kategorie{
+	line-height: 55px;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+#kategorie a{
+	padding: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #c2c4c5;
+	color: #3c393d;
+	font-size: 18px;
+}
+
+#kategorie a:hover{
+	color: #df0024;
+}
+
+#onas{
+	background-color: #df0024;
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 65px;
+	letter-spacing: 0.3ex;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+footer{
+	background-color: #000000;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 40px;
+	color: #ffffff;
+}
+
+#kontakt{
+	clear: both;
+	text-align: left;
+	padding-bottom: 40px;
+}
+
+
+.kontakt{
+	float: left;
+	width: 50%;
+}
+
+#dolacz{
+	padding: 10px;
+	clear: both;
+}
+
+.dolaczimg a img{
+	float: left;
+	height: 40px;
+	width: 40px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+#adres{
+	clear: both;
+	padding: 35px;
+	padding-left: 0;	
+}
+
+#adres img{
+	width: 20px;
+	height: 20px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.adres{
+	padding-bottom: 15px;
+}
+
+#email{
+	padding: 10px;
+}
+
+#email form{
+	padding-top: 15px;
+}
+
+#email form input{
+	padding: 5px;
+	width: 90%;
+	font-family: "Century Gothic";
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+#email form textarea{
+	padding: 5px;
+	width: 90%;
+	font-family: "Century Gothic";
+	font-size: 15px;
+}
+
+#email form #wyslij input{
+	text-transform: uppercase;
+	font-family: "Century Gothic";
+	font-size: 14px;
+	margin-top: 10px;
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid;
+	width: 30%;
+	height: 30px;
+}	
+
+#copyright{
+	padding: 25px;
+}
+
+#numer{
+	display: none;
+}
+
+button.accordion{
+	display: none;
+}
+
+#form{
+	display: none;
+}
+
+
+
+@media (max-width: 1279px) and (min-width: 992px) {
+
+
+    #content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+	table{
+		font-size: 20px;
+	}
+
+	#rozmiar{
+		width: 98%;
+		margin: 0% 1% 3% 1%;
+	}
+
+    #menu {
+        height: 100px;
+    }
+
+    .menu p {
+        font-size: 16px;
+    }
+
+    .menu img {
+        height: 50px;
+        width: 50px;
+        padding-top: 20px;
+    }
+
+    .menu a {
+        font-size: 27px;
+        letter-spacing: 0.1ex;
+        padding: 0;
+        padding-top: 30px;
+    }
+
+    #sklep {
+    	width: 90%;
+        font-size: 35px;
+    }
+
+    #kategorie {
+        line-height: 96px;
+        width: 96%;
+        padding-top: 20px;
+    }
+
+    #kategorie a {
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .bestitem {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .bestitem img {
+        height: 430px;
+        width: 300px;
+    }
+
+    .bestitem h1 {
+        font-size: 25px;
+        letter-spacing: 0.1ex;
+    }
+
+    .bestitem h2 {
+        font-size: 40px;
+    }
+
+    #onas {
+        font-size: 35px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .kontakt {
+        font-size: 20px;
+    }
+
+    .dolaczimg a img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #adres img {
+        width: 25px;
+        height: 25px;
+        padding-right: 15px;
+    }
+
+    footer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #email form input {
+        font-size: 20px;
+    }
+
+    #email form textarea {
+        font-size: 20x;
+    }
+
+    #email form #wyslij input {
+        font-size: 20px;
+        width: 50%;
+        height: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+nav{
+	height: 210px;
+}
+
+.fixed{
+	display: none;
+}
+
+#rozmiar{
+	display: none;
+}
+
+#menu{
+	width: 100%;
+}
+
+#menu p{
+	padding-top: 20px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #3c393d;
+	letter-spacing: 0.1em;
+}
+
+#menu img{
+	padding-right: 0px;
+}
+
+
+
+#menu #for_smaller_screens .menu{
+	width: 50%;
+}
+
+.logo{
+	width: 60%;
+	height: 70px;
+	padding-left: 20%;
+
+}
+
+.logo p{
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.logo img{
+	padding-right: 13px;
+	display: block;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 5px;
+	width: 40px;
+	height: 40px;
+}
+
+#dolacztel{
+	background: #000000;
+	height: 70px;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#dolacztel p{
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.dolacz{
+	width: 50%;
+	float: left;
+}
+
+.dolaczimg img{
+	padding-left: 10%;
+}
+
+.dolacz a img{
+	padding-top: 5%;
+
+}
+
+#for_larger_screens{
+	display: none;
+
+}
+
+
+#for_smaller_screens{
+	display: inline-block;
+	width: 100%;
+}
+
+#for_smaller_screens select{
+	background-color: #d6d7d8;
+	font-family: "Century Gothic";
+	height: 70px;
+	font-size: 25px;
+	color: #df0024;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	border: 0 solid;
+	width: 100%;
+	text-align: center;
+}
+
+#for_smaller_screens select option{
+        background: #ddd;
+        padding:5px 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        background: #d6d7d8;
+}
+
+
+.menu{
+	width: 50%;
+}
+
+select:focus, select:active{
+        outline: none;
+        -moz-outline: none;
+}
+
+#for_smaller_screens select option{
+        background: #ddd;
+        padding:5px 0;
+}
+
+
+    header{
+    	display: none;
+    }
+
+    #sklep{
+    	width: 90%;
+    	padding-top: 0;
+    } 
+
+    .bestitem {
+        float: none;
+        width: 100%;
+        padding-top: 25px;
+        margin-bottom: 20px;
+        background: #c2c4c5;
+    }
+
+    .bestitem img {
+        min-height: 550px;
+        min-width: 400px;
+    }
+
+    .bestitem h1 {
+        text-decoration: none;
+        font-size: 30px;
+        color: #3c393d;
+        background-color: #d6d7d8;
+        padding-top: 0;
+    }
+
+    .bestitem h2 {
+        font-size: 35px;
+        background-color: #d6d7d8;
+    }
+
+    #kategorie {
+        line-height: 80px;
+        width: 96%;
+        padding-top: 20px;
+    }
+
+    #kategorie a {
+        padding: 22px;
+        font-size: 30px;
+    }
+
+
+    footer{
+    	padding-top: 0;
+    	padding-left: 0;
+    	padding-right: 0;
+    	background: #ffffff;
+    }
+
+    #kontakt {
+        display: none;
+    }
+
+    #onas{
+    	font-size: 25px;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }
+
+    #onas p{
+    	font-size: 18px;
+    }
+
+    #numer{
+    	width: 100%;
+    	background: #292929;
+    	color: #ffffff;
+    	display: inline-block;
+    	height: 70px;
+    }
+
+    #numer p{
+       	font-size: 20px;
+       	text-transform: uppercase;
+       	padding-top: 3%;
+
+    }
+
+    #copyright{
+    	height: auto;
+    	padding: 0;
+		padding-bottom: 20px;
+		font-size: 20px;
+		text-align: center;
+		background: #000000;
+    }
+
+	#copyright p{
+		font-size: 16px;
+	}
+
+	#form{	
+	display: inline-block;
+	background: white;
+	max-height: 0px;
+	overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	}
+
+	#form.show{
+	opacity: 1;
+	max-height: 550px;
+	width: 100%;
+	}
+
+
+
+	#form form{
+		padding-top: 15px;
+		background: #ffffff;
+	}
+
+	#form form input{
+		padding: 5px;
+		width: 90%;
+		font-family: "Century Gothic";
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	#form form textarea{
+		padding: 5px;
+		width: 90%;
+		font-family: "Century Gothic";
+		font-size: 15px;
+	}
+
+	#form form #wyslij input{
+		text-transform: uppercase;
+		font-family: "Century Gothic";
+		font-size: 14px;
+		margin-top: 10px;
+		background-color: transparent;
+		color: #878787;
+		border: 1px solid;
+		width: 30%;
+		height: 30px;
+	}	
+
+	button.accordion {
+		display: inline-block;
+	    background-color: #fff;
+	    color: #585858;
+	    cursor: pointer;
+	    padding: 18px;
+	    padding-bottom: 0;
+	    width: 100%;
+	    height: 100px;
+	    border: none;
+	    text-align: center;
+	    margin: auto;
+	    outline: none;
+	    font-family: "Century Gothic";
+	    font-size: 25px;
+	    text-transform: uppercase;
+	    transition: 0.4s;
+	}
+
+	button.accordion.active, button.accordion:hover {
+	    color: black;
+	}
+
+
+
+
+
+
+
+}
+
